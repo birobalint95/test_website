@@ -2,6 +2,8 @@
 
 // document.getElementById("typewriter").innerHTML = "HELLO";
 
+console.log("szia");
+
 function hello() {
     console.log("hello");
 };

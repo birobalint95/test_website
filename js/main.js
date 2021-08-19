@@ -1,3 +1,7 @@
+var typer = document.getElementById('typewriter');
+console.log(typer);
+
+/*
   function setupTypewriter(t) {
       var HTML = t.innerHTML;
 
@@ -68,3 +72,5 @@
   typewriter = setupTypewriter(typer);
 
   typewriter.type();
+
+*/

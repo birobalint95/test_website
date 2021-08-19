@@ -8,7 +8,12 @@ function hello() {
     console.log("hello");
 };
 
+var typer = document.getElementById('typewriter');
+console.log(typer);
+
 hello();
+
+
 
 // console.log(typer);
 

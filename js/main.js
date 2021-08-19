@@ -1,6 +1,10 @@
 // var typer = document.getElementById('typewriter');
 
-document.getElementById("typewriter").innerHTML = "HELLO";
+// document.getElementById("typewriter").innerHTML = "HELLO";
+
+$(document).ready(function(){
+    alert("hi");
+}
 
 // console.log(typer);
 

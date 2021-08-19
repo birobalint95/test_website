@@ -1,5 +1,8 @@
-var typer = document.getElementById('typewriter');
-console.log(typer);
+// var typer = document.getElementById('typewriter');
+
+document.getElementById("typewriter").innerHTML = "HELLO";
+
+// console.log(typer);
 
 /*
   function setupTypewriter(t) {

@@ -3,7 +3,7 @@
 // document.getElementById("typewriter").innerHTML = "HELLO";
 
 function hello() {
-    console.log()
+    console.log("hello");
 };
 
 // console.log(typer);

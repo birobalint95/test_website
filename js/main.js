@@ -2,9 +2,9 @@
 
 // document.getElementById("typewriter").innerHTML = "HELLO";
 
-$(document).ready(function(){
-    alert("hi");
-});
+function hello() {
+    console.log()
+};
 
 // console.log(typer);
 

@@ -2,8 +2,10 @@ body {
   background-color: #1d1e22;
 }
 
-.var-highlight{
-  color: #C0AD60;
+.typed_name{
+  color: #d0782a;
+  font-weight: bold;
+  font-size: 160%;
 }
 
 .string-highlight{

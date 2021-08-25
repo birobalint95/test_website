@@ -2,6 +2,7 @@ body {
   background-color: #1d1e22;
 }
 
+
 .typed_name{
   color: #d0782a;
   font-weight: bold;
@@ -12,28 +13,45 @@ body {
   color: #0abb51;
 }
 
-#typewriter{
-    font-size: 2em;
-    margin: 0;
-    font-family: "Courier New";
 
-    &:after{
-      content: "|";
-      animation: blink 500ms linear infinite alternate;
-    }
-}
 
-@-webkit-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+.var-highlight {
+	 color: #c0ad60;
 }
-
-@-moz-keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+ .string-highlight {
+	 color: rgba(253, 149, 90, 0.8);
 }
-
-@keyframes blink{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+ #typewriter {
+	 font-size: 2em;
+	 margin: 0;
+	 font-family: "Courier New";
 }
+ #typewriter:after {
+	 content: "|";
+	 animation: blink 500ms linear infinite alternate;
+}
+ @-webkit-keyframes blink {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+ @-moz-keyframes blink {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+ @keyframes blink {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+ 

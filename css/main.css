@@ -1,20 +1,13 @@
 body {
   background-color: #1d1e22;
+  font-size: 70%;
 }
-
-/*
 .typed_name{
   color: #d0782a;
-  font-weight: bold;
-  font-size: 160%;
 }
-
 .typed_comment{
   color: #0abb51;
 }
-*/
-
-
 .var-highlight {
 	 color: #c0ad60;
 }
@@ -54,4 +47,3 @@ body {
 		 opacity: 1;
 	}
 }
- 
